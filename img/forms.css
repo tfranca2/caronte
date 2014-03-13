@@ -1,0 +1,182 @@
+/**************/
+/* FIELDSET */
+/**************/
+fieldset {border:1px solid #cae1d7; margin:5px 0px 5px 0px; background-color:#e8f1ed;}
+
+/* paragrafo do fieldset */
+fieldset p 
+{
+    padding:6px 10px 6px 10px; 
+    margin:0px; 
+    border-top:1px solid #ffffff; 
+    border-bottom:1px solid #cae1d7; 
+    background-color:#f9f9f9; 
+ }
+
+/* titulo do fieldset */
+legend {color:#4F8A75; background-color:#cae1d7; font-weight:bold; padding:3px; border:1px solid #cae1d7; text-align:right; text-transform:uppercase;}
+
+/* nome do campo */
+label { float:left; width:20%; height:20px; margin-right:0.5em; padding-top:0.2em; text-align:right;  font-weight:bold; white-space: nowrap;}
+
+/* campo */
+fieldset span {display:table;  text-align:left; }
+
+/**********/
+/* INPUT */
+/**********/
+.text {height:18px; padding:2px 4px 2px 4px; border:1px inset #000000; min-width:150px; text-transform:uppercase;	}
+.text:focus {background-color:#f9f9f9; min-width:150px;}
+.select {height:20px; border:1px inset #000000; min-width:150px;}
+
+/* area dos botÃµes (enviar, apagar, etc.) */
+.botoes  
+{
+    padding:3px 3px 3px 0px;
+    border:1px solid #cae1d7; 
+    background-color:#e8f1ed;
+    text-align:right;
+    margin:0px 0px 10px 234px;
+}
+
+.btnGrid
+{
+	font-size:12px;
+	border: 1px solid Gray;
+	color:Green;
+	background-color:White;
+}
+
+.ddlGrid
+{
+	border:1px solid Gray;
+	font-size:12px;
+	margin-right:2px;
+	margin-bottom:1px;
+}
+
+.lbxGrid
+{
+	border:1px solid Gray;
+	font-size:11px;
+	margin-right:2px;
+}
+
+.txtGrid
+{
+	border:1px solid Gray;
+	font-size:12px;
+	margin-right:2px;
+	margin-bottom:1px;
+}
+
+
+
+/****************************/
+/* CLASSES EM DESUSO */
+/****************************/
+.form_esq1 {
+	float:left;
+	width:54px;
+	padding-right:10px;
+	height:26px; /* 30 - 4 */
+	padding-top:4px;
+	/*background-color:#000000;*/
+	text-align:right;
+	font-weight:bold;
+}
+.form_dir1 {
+	float:left;
+	width:204px;
+	height:30px;
+	/*background-color:#454545;*/
+	text-align:right;
+}
+
+/* TAGS */
+input, select {
+	color:#000000;
+}
+input[disabled], select[disabled] {
+	color:#000000;
+}
+
+/* Todos */
+.input_maior, .input_medio, .input_menor, .select_maior, .select_medio, .select_menor {
+	border:1px solid #dfecd2;
+	padding-left:2px;
+}
+.input_maior:focus, .input_medio:focus, .input_menor:focus, .select_maior:focus, .select_medio:focus, .select_menor:focus {
+	background-color:#dfecd2;
+}
+
+/* Inputs */
+.input_maior {
+	width:500px;
+}
+
+.input_medio {
+	width:200px;
+}
+
+.input_menor {
+	width:100px;
+}
+
+/* Selects */
+.select_maior {
+	width:500px;
+}
+
+.select_medio {
+	width:200px;
+}
+
+.select_menor {
+	width:100px;
+}
+optgroup {
+	font-weight:bold;
+	font-style:normal;
+	padding-left:14px;
+}
+
+hr 
+{
+	border-top: 1px solid dimgray;
+	border-bottom: 1px solid dimgray;
+	color: dimgray;
+	background-color: dimgray;
+	height: 2px;
+}
+
+
+span.checkbox {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(/template/imagens/forms/checkbox.gif) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+span.radio {
+	width: 19px;
+	height: 25px;
+	padding: 0 5px 0 0;
+	background: url(/template/imagens/forms/radio.gif) no-repeat;
+	display: block;
+	clear: left;
+	float: left;
+}
+span.select {
+	position: absolute;
+	width: 258px; /* With the padding included, the width is 190 pixels: the actual width of the image. */
+	height: 21px;
+	padding: 0 24px 0 8px;
+	color: #fff;
+	font: 12px/21px arial,sans-serif;
+	background: url(/template/imagens/forms/select.gif) no-repeat;
+	overflow: hidden;
+}
+
