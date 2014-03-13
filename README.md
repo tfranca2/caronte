@@ -3,7 +3,7 @@ caronte
 
 Sistema de login vulnerável a sqlInjection. 
 
-Objetivo: invadi-lo e baixar os arquivos das provas - Prova prática
+Objetivo: invadi-lo, descobrindo as 6 senhas escondidas no sistema e baixar os arquivos das provas - Prova prática
 
 Disciplina: Segurança da Informação
 
